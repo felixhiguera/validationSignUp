@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title> Intro component with sign up form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="text">
+
+            <div class="text-title">
+                <h1>Learn to code by watching others</h1>
+            </div>
+            <div class="text-paragraph">
+                <p>
+                    See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable. </p>
+            </div>
+        </div>
+        <div class="form">
+            <div class="message-box">
+                <h2>
+                    <span>Try it free 7 days </span> then $20/mo. thereafter
+                </h2>
+            </div>
+            <form action="/" class="send-email" id="form">
+                <div class="divFirstName adjustInput">
+                    <input type="text" id="firstName" class="input" placeholder="First Name">
+                    <div id="errorFirstName" class=""></div>
+                </div>
+                <div class="divLastName adjustInput">
+                    <input type="text" id="lastName" class="input" placeholder="Last Name">
+                    <div id="errorLastName"></div>
+                </div>
+                <div class="divEmail adjustInput">
+                    <input type="email" id="email" class="input" placeholder="Email">
+                    <div id="errorEmail"></div>
+                </div>
+                <div class="divPassword adjustInput">
+                    <input type="password" id="password" class="input" placeholder="Password">
+                    <div id="errorPassword"></div>
+                </div>
+                <button id="send" class="input adjustInput" type="submit">
+                  CLAIM YOUR FREE TRIAL
+                </button>
+                <div id="spinner">
+                    <div class="sk-chase">
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                    </div>
+                </div>
+
+                <div class="footer adjustInput">
+                    <p>By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+</body>
+<script src="js/index.js"></script>
+
+</html>
+
+<!-- 
+
+
+
+Try it free 7 days then $20/mo. thereafter
+
+
+ 
+
+ -->
